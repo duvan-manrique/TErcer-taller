@@ -8,10 +8,14 @@ package figurasgeometricas;
 import java.util.Scanner;
 
 /**
- *
+ * Clase encargada de las variables y metodos de la figura cuadrado
+ * @author duvan
  * @author ivan camilo
  */
 public class Cuadrado extends DosD {
+    /**
+     * Constructor de la clase
+     */
 
     public Cuadrado(double lado,double lado2) {
         this.lado = lado;
@@ -25,7 +29,7 @@ public class Cuadrado extends DosD {
 
     @Override
     public double hallarArea() {
-        area=(area*area);
+        area=(lado*lado);
         return area;
     }
 

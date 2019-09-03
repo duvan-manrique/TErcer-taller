@@ -5,8 +5,10 @@
  */
 package figurasgeometricas;
 
+
 /**
- *
+ * Clase abstracta encargada de los metodos obligatorios para las figuras Dosd
+ * @author duvan
  * @author ivan camilo
  */
 public abstract class DosD implements Figuras{

@@ -9,11 +9,16 @@ import static java.lang.Math.PI;
 import java.util.Scanner;
 
 /**
- *
+ * Clase encargada de las variables y metodos de la figura circulo
+ * @author duvan
  * @author ivan camilo
  */
 public class Circulo extends DosD{
+    
 
+    /**
+     * Constructor de la clase
+     */
     public Circulo(double radio) {
         this.radio = radio;
     }
@@ -38,9 +43,10 @@ public class Circulo extends DosD{
         return area;
     }
      public void obtener() {
-       System.out.println("circulo");   
-       System.out.println("perimetro: "+hallarPerimetro());
+       System.out.println("circulo");  
        System.out.println("diametro: "+hallarDiametro());
+       System.out.println("perimetro: "+hallarPerimetro());
+       
        System.out.println("area: "+hallarArea());
     }
 }

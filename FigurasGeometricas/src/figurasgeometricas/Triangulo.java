@@ -7,8 +7,10 @@ package figurasgeometricas;
 
 import java.util.Scanner;
 
+
 /**
- *
+ * Clase encargada de las variables y metodos de la figura triangulo
+ * @author duvan
  * @author ivan camilo
  */
 public class Triangulo extends DosD  {

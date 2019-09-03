@@ -6,14 +6,23 @@
 package figurasgeometricas;
 
 import java.util.Scanner;
-
 /**
- *
+ * Clase encargada de manejar el vector de figuras
  * @author duvan
+ * @author ivan camilo
  */
 public class Logica {
+     /**
+     * Variable que se usa en todos los metodos de esta clase como vector
+     */
     private Figuras[] vector;
+     /**
+     * Variable que se usa en todos los metodos de esta clase lector de datos
+     */
     private Scanner entrada ;
+     /**
+     * Constructor de la clase
+     */
     public Logica() {
        System.out.print("Cuantas figuras quiere: ");
        entrada=new Scanner(System.in);
@@ -36,6 +45,12 @@ public class Logica {
         mostrar();
         
     }
+    /**
+     * Funcion en la se selecciona el tipo de figura que elije el usuario
+     * @param tipo
+     * @param i
+     *  
+     */
 
     private void metodo1(char tipo,int i) {
        switch(tipo){
@@ -65,6 +80,11 @@ public class Logica {
            break;                           
        }              
     }
+    
+    /**
+     * Funcion en la cual imprimimos los datos de cada figura del vector
+     *      *  
+     */
 
     private void mostrar() {
         for (Figuras recorido : vector) {

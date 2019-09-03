@@ -6,10 +6,14 @@
 package figurasgeometricas;
 
 /**
- *
+ * Clase encargada de las variables y metodos de la figura cubo
  * @author duvan
+ * @author ivan camilo
  */
 public class Cubo extends TresD{
+    /**
+     * Constructor de la clase
+     */
 
     public Cubo(double largo, double ancho, double alto) {
         this.largo = largo;

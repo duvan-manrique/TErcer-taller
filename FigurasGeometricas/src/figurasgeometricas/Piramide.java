@@ -5,9 +5,11 @@
  */
 package figurasgeometricas;
 
+
 /**
- *
+ * Clase encargada de las variables y metodos de la figura piramide
  * @author duvan
+ * @author ivan camilo
  */
 public class Piramide extends TresD{
 

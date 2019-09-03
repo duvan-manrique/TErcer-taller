@@ -6,7 +6,8 @@
 package figurasgeometricas;
 
 /**
- *
+ * Main
+ * @author duvan
  * @author ivan camilo
  */
 public class FigurasGeometricas {

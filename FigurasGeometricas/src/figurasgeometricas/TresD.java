@@ -5,8 +5,10 @@
  */
 package figurasgeometricas;
 
+
 /**
- *
+ * Clase abstracta encargada de los metodos obligatorios de las figuras tresD
+ * @author duvan
  * @author ivan camilo
  */
 public abstract class TresD implements Figuras {

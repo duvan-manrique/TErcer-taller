@@ -8,9 +8,11 @@ package figurasgeometricas;
 import static java.lang.Math.PI;
 import static java.lang.Math.pow;
 
+
 /**
- *
+ * Clase encargada de las variables y metodos de la figura Esfera
  * @author duvan
+ * @author ivan camilo
  */
 public class Esfera extends TresD{
  private double radio;

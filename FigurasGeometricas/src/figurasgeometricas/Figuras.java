@@ -6,7 +6,8 @@
 package figurasgeometricas;
 
 /**
- *
+ * interface de los metodos necesarios para todas las figuras
+ * @author duvan
  * @author ivan camilo
  */
 public interface Figuras {
